@@ -1,5 +1,11 @@
+<div style="height: 95vh;" class="container d-flex justify-content-center align-items-center"
+ <%# style="width: 90%;" %>
+ >
+<div style="border-radius: 8px" class="container border border-secondary p-3">
+<%= image_tag 'kanji_cam_logo.svg', class: "mb-4 svg-shadow", style: "width: 40%; max-height: 20vmin;" %>
 <h2>Sign up</h2>
 
+<div>
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= f.error_notification %>
 
@@ -17,9 +23,11 @@
                 input_html: { autocomplete: "new-password" } %>
   </div>
 
-  <div class="form-actions">
+  <div class="form-actions btn-3d homepage-btn bg-primary text-center">
     <%= f.button :submit, "Sign up" %>
   </div>
 <% end %>
-
+</div>
 <%= render "devise/shared/links" %>
+</div>
+</div>
