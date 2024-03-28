@@ -19,35 +19,22 @@ $light-color: white;
 
 .top-element-container {
   position: absolute;
-  // top: 64px;
-  // left: 50%;
-  // transform: translateX(-50%);
   top: 14px;
   left: 10px;
   z-index: 2;
-
-  // position: relative;
+  background: $secondary;
+  border-radius: 28px 28px 28px 28px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: start;
   align-items: start;
-  // position: absolute;
-  // top: 8px;
-  // left: 10px;
 }
 
 .tab-button-container {
-  // position: absolute;
-  // // top: 64px;
-  // // left: 50%;
-  // // transform: translateX(-50%);
-  // top: 14px;
-  // left: 10px;
-  // z-index: 2;
-  background: $secondary;
+  // background: $secondary;
   padding: 10px;
-  border-radius: 28px 28px 28px 0px;
+  // border-radius: 28px 28px 0 0;
   gap: 8px;
 }
 
@@ -78,9 +65,10 @@ button{
 }
 
 .top-message {
-  border-radius: 0px 0px 20px 20px;
+  // border-radius: 0px 0px 20px 20px;
   color: white;
-  background-color: $secondary;
+  margin: 0 auto;
+  // background-color: $secondary;
   // position: absolute;
   // top: 70px;
   // left: 8px;
